@@ -1,0 +1,19 @@
+# Note: Camera task only outputs nv12 format
+int64 START_CAMERA        = 101
+int64 STOP_CAMERA         = 102
+int64 START_H264          = 201
+int64 STOP_H264           = 202
+int64 START_OBJECT_DETECT = 301
+int64 STOP_OBJECT_DETECT  = 302
+int64 START_IMAGE_SEGMENT = 401
+int64 STOP_IMAGE_SEGMENT  = 402
+
+int64 task_id
+uint8 camera_id
+int32 height
+int32 width
+---
+string err_info
+string node_name
+string output_topic_name
+bool success

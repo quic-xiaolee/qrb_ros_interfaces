@@ -1,0 +1,20 @@
+# Copyright (c) 2024 Qualcomm Innovation Center, Inc. All rights reserved.
+# SPDX-License-Identifier: BSD-3-Clause-Clear
+
+# Action: Create; Response: success
+# Action: Destroy, Pipeline_id: xx; Response: success
+# Action: Load, Pipeline_id: xx, NodeInfo: xx; Response: success/node_name/output_topic_name/pipeline_id
+
+# Action constants
+uint32 ACTION_CREATE  = 0x101
+uint32 ACTION_DESTROY = 0x102
+uint32 ACTION_LOAD    = 0x103
+
+int32 action
+int32 pipeline_id
+NodeInfo[] nodes_info
+---
+bool success
+string node_name
+string output_topic_name
+int32 pipeline_id
