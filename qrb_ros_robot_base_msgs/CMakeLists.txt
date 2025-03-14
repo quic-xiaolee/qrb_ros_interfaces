@@ -19,6 +19,7 @@ endif()
 find_package(ament_cmake REQUIRED)
 find_package(rosidl_default_generators REQUIRED)
 find_package(std_msgs REQUIRED)
+find_package(sensor_msgs REQUIRED)
 
 rosidl_generate_interfaces(${PROJECT_NAME}
   "srv/GetControlMode.srv"
@@ -27,12 +28,13 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "srv/Rotate.srv"
   "srv/SetMotionMode.srv"
   "srv/EmergencyCmd.srv"
+  "srv/GetBatteryState.srv"
   "msg/Stop.msg"
-  "msg/GetBatteryState.msg"
   "msg/ChargerCmd.msg"
   "msg/Error.msg"
   "msg/Exception.msg"
   DEPENDENCIES std_msgs
+  DEPENDENCIES sensor_msgs
 )
 
 set_target_properties(${PROJECT_NAME} PROPERTIES

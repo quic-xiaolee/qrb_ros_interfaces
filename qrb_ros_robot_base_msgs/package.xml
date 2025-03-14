@@ -15,6 +15,7 @@
   <test_depend>ament_lint_common</test_depend>
 
   <depend>std_msgs</depend>
+  <depend>sensor_msgs</depend>
 
   <exec_depend>rosidl_default_runtime</exec_depend>
 
