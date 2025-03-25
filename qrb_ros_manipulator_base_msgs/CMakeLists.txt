@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.5)
-project(qti_arm_msgs)
+project(qrb_ros_arm_msgs)
 
 # Default to C99
 if(NOT CMAKE_C_STANDARD)
