@@ -6,7 +6,7 @@ qrb_ros_interfaces is a ros2 package contains the custom qrb ros messages.
 
 ## System Requirements
 
-- ROS 2 Humble and later.
+- ROS 2 Jazzy.
 
 ## Supported Platforms
 
