@@ -66,7 +66,7 @@ We would love to have you as a part of the QRB ROS community. Whether you are he
 
 ## Authors
 
-* **Zhaoyuan Cheng** - *Initial work* - [jiaxshi](https://github.com/quic-zhaoyuan)
+* **Zhaoyuan Cheng** - *Initial work* - [zhaoyuan](https://github.com/quic-zhaoyuan)
 
 See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
 
