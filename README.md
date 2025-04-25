@@ -20,10 +20,9 @@ Please follow this [steps](https://github.com/qualcomm-qrb-ros/qrb_ros_docker?ta
 
 
 #### Build
-How to build it.
-
-#### Run
-How to run it.
+```bash
+colcon build
+```
 
 </details>
 
